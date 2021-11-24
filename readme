@@ -1,0 +1,5 @@
+This a module of writing Spring
+1.implemented basic IOC and AOP
+2.implemented basic SpringMvc
+3.implemented basic Tomcat(BIO)
+so it is more likely a springboot
