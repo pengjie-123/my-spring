@@ -3,3 +3,6 @@ This a module of writing Spring
 2.implemented basic SpringMvc
 3.implemented basic Tomcat(BIO)
 so it is more likely a springboot
+
+How to start the web server?
+find class "com.my.spring.ApplicationMain" and run main method.
