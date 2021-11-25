@@ -59,9 +59,6 @@ public class Tomcat {
                     Object   resp     = urlMappingHandler.invoke(mappings);
                     outputStream = socket.getOutputStream();
                     outputStream.write(resp.toString().getBytes());
-                    outputStream.close();
-                    inputStream.close();
-                    socket.close();
                 } catch (Exception e) {
                     e.printStackTrace();
                 } finally {
